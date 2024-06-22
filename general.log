@@ -1,0 +1,20 @@
+2024-06-22 18:08:50,315 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-06-22 18:08:50,608 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-06-22 18:08:53,848 (INFO) - playground.views - Calling httpbin
+2024-06-22 18:08:56,529 (INFO) - playground.views - Received the response
+2024-06-22 18:30:19,091 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-06-22 18:30:19,407 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-06-22 18:30:25,356 (INFO) - playground.views - Calling httpbin
+2024-06-22 18:30:27,853 (INFO) - playground.views - Received the response
+2024-06-22 18:30:27,876 (INFO) - playground.views - Calling httpbin
+2024-06-22 18:30:30,616 (INFO) - playground.views - Received the response
+2024-06-22 18:30:36,213 (WARNING) - rest_framework.fields - min_value in DecimalField should be Decimal type.
+2024-06-22 18:30:36,986 (WARNING) - rest_framework.fields - min_value in DecimalField should be Decimal type.
+2024-06-22 18:30:56,098 (WARNING) - django.request - Unauthorized: /store/collections/
+2024-06-22 18:30:56,111 (WARNING) - django.request - Forbidden: /store/collections/
+2024-06-22 18:30:56,117 (WARNING) - django.request - Bad Request: /store/collections/
+2024-06-22 18:32:20,192 (WARNING) - django.request - Unauthorized: /store/collections/
+2024-06-22 18:32:20,227 (WARNING) - django.request - Forbidden: /store/collections/
+2024-06-22 18:32:20,259 (WARNING) - django.request - Bad Request: /store/collections/
+2024-06-22 21:11:43,228 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-06-22 21:11:44,495 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
