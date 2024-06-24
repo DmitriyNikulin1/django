@@ -62,7 +62,7 @@ class ReviewViewSet(ModelViewSet):
 
 
 class CartViewSet(ModelViewSet):
-    queryset = Cart.objects.all()
+    queryset = Cart.objects.prefetch_related('items__product').all()
 
     def get_serializer_class(self):
         return CartSerializer

@@ -18,3 +18,17 @@
 2024-06-22 18:32:20,259 (WARNING) - django.request - Bad Request: /store/collections/
 2024-06-22 21:11:43,228 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
 2024-06-22 21:11:44,495 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-06-22 23:49:29,068 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-06-22 23:49:49,117 (INFO) - playground.views - Calling httpbin
+2024-06-22 23:49:51,604 (INFO) - playground.views - Received the response
+2024-06-22 23:49:55,661 (INFO) - playground.views - Calling httpbin
+2024-06-22 23:49:58,122 (INFO) - playground.views - Received the response
+2024-06-22 23:50:07,491 (WARNING) - rest_framework.fields - min_value in DecimalField should be Decimal type.
+2024-06-22 23:50:08,204 (WARNING) - rest_framework.fields - min_value in DecimalField should be Decimal type.
+2024-06-22 23:51:54,455 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-06-22 23:51:55,497 (WARNING) - rest_framework.fields - min_value in DecimalField should be Decimal type.
+2024-06-22 23:51:55,660 (WARNING) - rest_framework.fields - min_value in DecimalField should be Decimal type.
+2024-06-24 19:04:10,478 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-06-24 19:04:10,948 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-06-24 19:04:19,152 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-06-24 19:05:58,444 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
