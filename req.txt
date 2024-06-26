@@ -49,15 +49,13 @@ locust==2.29.0
 MarkupSafe==2.1.5
 model-bakery==1.18.1
 msgpack==1.0.8
-mysqlclient==2.2.4
 oauthlib==3.2.2
 packaging==24.0
 pillow==10.3.0
 pluggy==1.5.0
 prometheus_client==0.20.0
 prompt_toolkit==3.0.46
-psutil==5.9.8
-psycopg2==2.9.9
+psycopg2-binary==2.9.9
 pycodestyle==2.11.1
 pycparser==2.22
 PyJWT==2.8.0
@@ -67,7 +65,6 @@ pytest-watch==4.2.0
 python-dateutil==2.9.0.post0
 python3-openid==3.2.0
 pytz==2024.1
-pywin32==306
 pyzmq==26.0.3
 redis==5.0.5
 requests==2.32.2
@@ -86,5 +83,4 @@ watchdog==4.0.1
 wcwidth==0.2.13
 Werkzeug==3.0.3
 whitenoise==6.7.0
-zope.event==5.0
-zope.interface==6.4.post2
+gunicorn

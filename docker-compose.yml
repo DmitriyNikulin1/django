@@ -1,0 +1,18 @@
+version: '3'
+
+services:
+  django:
+    build: .
+    command: python -m gunicorn storefront.wsgi --bind 0.0.0.0:8000
+    volumes:
+      - .:/app
+    ports:
+      - "8000:8000"
+    depends_on:
+      - pgdb
+  pgdb:
+    image: postgres
+    environment:
+      - POSTGRES_DB=postgres
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres

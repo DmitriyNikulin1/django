@@ -6,15 +6,17 @@ DEBUG = False
 
 SECRET_KEY = 'fxb@ctrddm4$sx8=-2@i!s426_l1+=7=okml6*f+iwfy&4_3f7'
 
-ALLOWED_HOSTS = ['158.160.139.142']
+
+ALLOWED_HOSTS = ['158.160.137.255']
 
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'PostgreSQL-1066',
-        'HOST': '83.166.234.62',
-        'USER': 'user',
-        'PASSWORD': 'Agent2008Agent2008!',
+        'NAME': 'postgres',
+        'HOST': 'pgdb',
+        'PORT': '5432',
+        'USER': 'postgres',
+        'PASSWORD': 'postgres',
     }
 }
 
