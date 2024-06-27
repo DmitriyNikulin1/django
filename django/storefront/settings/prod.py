@@ -7,7 +7,7 @@ DEBUG = False
 SECRET_KEY = 'fxb@ctrddm4$sx8=-2@i!s426_l1+=7=okml6*f+iwfy&4_3f7'
 
 
-ALLOWED_HOSTS = ['158.160.137.255']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1']
 
 DATABASES = {
     'default': {

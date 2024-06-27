@@ -2,10 +2,12 @@ version: '3'
 
 services:
   django:
-    build: .
-    command: python -m gunicorn storefront.wsgi --bind 0.0.0.0:8000
+    build:
+      context:
+        .
     volumes:
-      - .:/app
+      - .:/django/app
+      - static:/app/static
     ports:
       - "8000:8000"
     depends_on:
@@ -16,3 +18,14 @@ services:
       - POSTGRES_DB=postgres
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=postgres
+  nginx:
+    build: ./nginx
+    volumes:
+      - static:/app/static
+    ports:
+      - "80:80"
+    depends_on:
+      - django
+
+volumes:
+  static:
