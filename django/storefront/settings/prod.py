@@ -23,7 +23,7 @@ DATABASES = {
 CACHES = {
     "default": {
         "BACKEND": "django_redis.cache.RedisCache",
-        "LOCATION": "redis://10.0.1.97:6379/0",
+        "LOCATION": "redis://redis/0",
         'TIMEOUT': 10 * 60,
         "OPTIONS": {
             "CLIENT_CLASS": "django_redis.client.DefaultClient",

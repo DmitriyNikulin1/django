@@ -13,6 +13,7 @@ services:
       - "8000:8000"
     depends_on:
       - pgdb
+      - redis
   pgdb:
     image: postgres
     environment:
@@ -28,6 +29,10 @@ services:
       - "80:80"
     depends_on:
       - django
+  redis:
+    image: redis
+    ports:
+      - "6379:6379"
 
 volumes:
   static:
